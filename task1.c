@@ -2,16 +2,16 @@
 int main()
 
 //2.pre,post increment
-/*{
+{
     int a;
     printf("Enter a number :");
     scanf("%d",&a);
     printf("%d\n",++a);
     printf("%d\n",a++);
     return 0;
-}*/
+}
 //3.pre,post decrement
-/*{
+{
     int a;
     printf("Enter a number :");
     scanf("%d",&a);
@@ -19,9 +19,9 @@ int main()
     printf("%d\n",a--);
     return 0;
     
-}*/
+}
 //4.speed
-/*{
+{
     int d;
     int t;
     printf("Enter Distance :");
@@ -30,9 +30,9 @@ int main()
     scanf("%d",&t);
     printf("The  speed is :%d\n",d/t);
     return 0;
-}*/
-//5.remainder for 2 value
-/*{
+}
+5.remainder for 2 value
+{
     int a;
     int b;
     printf("Enter the value A :");
@@ -42,9 +42,9 @@ int main()
     printf("The Remainder is :%d\n",a%b);
     return 0;
     
-}*/
+}
 //6.Average for 3 number
-/*{
+{
     int a;
     int b;
     int c;
@@ -59,9 +59,9 @@ int main()
     printf("The average is :%d\n",d/3);
     return 0;
     
-}*/
+}
 //7.perimeter and area for rec,squ,cir
-/*{
+{
     int shape;
     printf("1.Rectangle\n2.square\n3.circle");
     printf("\nEnter choice :");
@@ -98,20 +98,20 @@ int main()
         printf("Invalid Shape");
         
     }
-}*/
+}
 
 //8.Celsius  to Fahrenheit 
-/*{
+{
     int c;
     printf("Enter celsius :");
     scanf("%d",&c);
     float fa=(c*9.0/5.0)+32.0;
     printf("Fahrenheit is%f",fa);
     return 0;
-}*/
+}
 
 //9.simpleinterst
-/*{
+{
     int p;
     int r;
     int t;
@@ -124,10 +124,10 @@ int main()
     int si=(p*r*t)/100;
     printf("Interst is :%d\n",si);
     
-}*/
+}
 
 //10.percentage of 5 subject
-/*{
+{
     int a;
     int b;
     int c;
@@ -148,10 +148,10 @@ int main()
     printf("Total mark is :%d\n",sum);
     printf("percentage is :%.2f%%\n",p);
     return 0;
-}*/
+}
 
 //11.assignment operator 
-/*{
+{
     int a;
     int b;
     printf("Enter a number :");
@@ -165,10 +165,10 @@ int main()
     printf("%d\n",a/=b);
     printf("%d\n",a%=b);
     return 0;
-}*/
+}
 
 //12.find last 2 digit number
-/*{
+{
     int a;
     int b;
     printf("Enter number :");
@@ -176,10 +176,10 @@ int main()
     b=a%100;
     printf("The last two digit is :%d\n",b);
     return 0;
-}*/
+}
 
 //13.comma operato
-/*{
+{
     int a=5,b=6;
     int c=a*a,d=a*a*a;
     int e=b*b,f=b*b*b;
@@ -189,10 +189,10 @@ int main()
     printf("cube of b is :%d\n",f);
    return 0;
     
-}*/
+}
 
 //14.size of operator
-/*{
+{
     int a;
     float f;
     double d;
@@ -204,7 +204,7 @@ int main()
     printf("size of c) =%zu\n",sizeof(c));
     printf("size of arr =%zu\n",sizeof(arr));
     return 0;
-}*/
+}
 
 
 
