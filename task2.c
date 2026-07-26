@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-1.find positive or negative number
+//1.find positive or negative number
 {
     int n;
     printf("Enter a number :");
@@ -15,7 +15,7 @@ int main()
     }
     
 }
-2.even or odd
+//2.even or odd
 {
     int n;
     printf("Enter a number :");
@@ -70,5 +70,59 @@ int main()
     }else{
         printf("%d Not a Leap Year", year);
     }
+    return 0;
+}
+//6.vowel and consonant
+{
+    char ch;
+
+    printf("Enter a character: ");
+    scanf(" %c", &ch);
+
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+        printf("Vowel");
+    }else{
+        printf("Consonant");
+    }
+    return 0;
+}
+//7. Simple Calculator Using Switch
+ {
+    int a, b;
+    char op;
+
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter operator (+,-,*,/): ");
+    scanf(" %c", &op);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    switch(op) {
+        case '+':
+            printf("Result = %d", a+b);
+            break;
+
+        case '-':
+            printf("Result = %d", a-b);
+            break;
+
+        case '*':
+            printf("Result = %d", a*b);
+            break;
+
+        case '/':
+            if(b != 0)
+                printf("Result = %d", a/b);
+            else
+                printf("Division by zero not possible");
+            break;
+
+        default:
+            printf("Invalid Operator");
+    }
+
     return 0;
 }
