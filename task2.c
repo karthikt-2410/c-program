@@ -241,3 +241,28 @@ int main()
 
     return 0;
 }
+//15. Check Whether a Number is Prime
+{
+    int n, i, count=1;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    if(n <= 1)
+        count = 0;
+    else {
+        for(i=2; i<n; i++) {
+            if(n % i == 0) {
+                count = 0;
+                break;
+            }
+        }
+    }
+
+    if(count)
+        printf("Prime Number");
+    else
+        printf("Not a Prime Number");
+
+    return 0;
+}
