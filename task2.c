@@ -179,3 +179,65 @@ int main()
 
     return 0;
 }
+//11. Sum of First N Natural Numbers
+{
+    int n, i, sum=0;
+
+    printf("Enter N: ");
+    scanf("%d", &n);
+
+    for(i=1; i<=n; i++)
+        sum += i;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+//12. Factorial of a Number
+{
+    int n, i;
+    long long fact = 1;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    for(i=1; i<=n; i++)
+        fact *= i;
+
+    printf("Factorial = %lld", fact);
+
+    return 0;
+}
+//13. Find the Last Two Digits
+ {
+    int n;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    printf("Last two digits = %02d", n % 100);
+
+    return 0;
+}
+//14. Check Whether a Number is Palindrome
+{
+    int n, a, b, c=0;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    a = n;
+
+    while(a != 0) {
+        b = a % 10;
+        c= c * 10 + b;
+        a = a / 10;
+    }
+
+    if(c == n)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
+
+    return 0;
+}
