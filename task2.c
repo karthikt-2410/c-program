@@ -126,3 +126,56 @@ int main()
 
     return 0;
 }
+//8. Display Month Using Switch
+ {
+    int month;
+
+    printf("Enter month number (1-12): ");
+    scanf("%d", &month);
+
+    switch(month) {
+        case 1: printf("January"); break;
+        case 2: printf("February"); break;
+        case 3: printf("March"); break;
+        case 4: printf("April"); break;
+        case 5: printf("May"); break;
+        case 6: printf("June"); break;
+        case 7: printf("July"); break;
+        case 8: printf("August"); break;
+        case 9: printf("September"); break;
+        case 10: printf("October"); break;
+        case 11: printf("November"); break;
+        case 12: printf("December"); break;
+        default: printf("Invalid Month");
+    }
+
+    return 0;
+}
+//9. Print Numbers from 1 to N
+ {
+    int n, i=1;
+
+    printf("Enter N: ");
+    scanf("%d", &n);
+
+    while(i<=n) {
+        printf("%d ", i);
+        i++;
+    }
+
+    return 0;
+}
+//10. Print Even Numbers from 1 to N
+ {
+    int n, i=2;
+
+    printf("Enter N: ");
+    scanf("%d", &n);
+
+    while(i<=n) {
+        printf("%d ", i);
+        i += 2;
+    }
+
+    return 0;
+}
